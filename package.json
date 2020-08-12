@@ -1,0 +1,46 @@
+{
+  "name": "presov-api",
+  "version": "beta",
+  "description": "Presov API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "SOV",
+  "license": "Copyright",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.29",
+    "@types/node": "^11.12.0",
+    "async": "^2.1.4",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.15.2",
+    "dotenv": "^8.2.0",
+    "eth-crypto": "^1.5.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "jsonwebtoken": "^8.1.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.16.0",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "query-string": "^5.0.1",
+    "randomstring": "^1.1.5",
+    "sequelize": "^4.2.1",
+    "sequelize-cli": "^5.5.1",
+    "truffle": "^5.1.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "url": "^0.11.0",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.12.1"
+  },
+  "repository": "git@github.com:sfb-tech/presov.git"
+}

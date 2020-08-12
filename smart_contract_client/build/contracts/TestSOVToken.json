@@ -1,0 +1,176 @@
+{
+  "contractName": "TestSOVToken",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/gilad/Documents/Code/metacoinv2/test/TestSOVToken.sol\":\"TestSOVToken\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/gilad/Documents/Code/metacoinv2/contracts/SOVToken.sol\":{\"keccak256\":\"0x57703d01c20f17f3abe10e5e10c098189d00a989af0e265c3ffdb07bcb8a2979\",\"urls\":[\"bzz-raw://f680786cb9b6755fc89e2b83a544ffde5f02a217c887195140c2284b47f30ad6\",\"dweb:/ipfs/QmUmb52syGSEXbrsugzc1EKmWHV6Uhk1nJM3wfZ5U79LLR\"]},\"/Users/gilad/Documents/Code/metacoinv2/test/TestSOVToken.sol\":{\"keccak256\":\"0x410b2b3702e9612dda2f6d8db8c5566998778d7fd07f012f1495151189095122\",\"urls\":[\"bzz-raw://5b80769c1e5c8867c94337c523dbac4924e204c19dd02f88f20bc28ad7f24ed7\",\"dweb:/ipfs/QmSEyWYBEBAqiMjRGhWYWzAUQKCWak4NkhbT9BvVxYqobd\"]},\"openzeppelin-solidity/contracts/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"openzeppelin-solidity/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"openzeppelin-solidity/contracts/access/roles/MinterRole.sol\":{\"keccak256\":\"0xbe8eef6f2cb4e427f5c5d8a76865ccd06e55a4f1d6671ba312d45bfa705aedbf\",\"urls\":[\"bzz-raw://badf338a5e22c8658c01fe2ce89b487d9dbf6d2d9d5eb49df7415383e2498765\",\"dweb:/ipfs/QmP5aMkvFwMJyuQjKE8ADh5tkWYqonb4KjgkAjgYEVVFAv\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]},\"openzeppelin-solidity/contracts/ownership/Ownable.sol\":{\"keccak256\":\"0xecd8ab29d9a5771c3964d0cd1788c4a5098a0081b20fb275da850a22b1c59806\",\"urls\":[\"bzz-raw://696a75bc2c55407ce8251ccc7d19ecb1b7b2be1796a160a6524312babcc7e3d4\",\"dweb:/ipfs/QmQViKEp3y99h9uhRssE29TmjBKRnFMaoz3eJZ4eggggg2\"]},\"openzeppelin-solidity/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x65a4078c03875c25413a068ce9cfdd7e68a90f8786612d1189c89341e6e3b802\",\"urls\":[\"bzz-raw://45c0d95495b944fbb1aa09d900b0ab530903a432125ab8fddfa05064a7988991\",\"dweb:/ipfs/Qma2VeknkKA1THeubGzshWFk44BktXkXP1UKp9Un2uDSsu\"]},\"openzeppelin-solidity/contracts/token/ERC20/ERC20Burnable.sol\":{\"keccak256\":\"0x9b94356691f3cbf90a5d83ae3fdf6a5a662bb004d2bd8b034160d60221807e64\",\"urls\":[\"bzz-raw://14a9d33db455302b8bb9fdb28998efefbe5a1cb41b29e31391609f646b2ab351\",\"dweb:/ipfs/Qmd4wFr6GEMZnnxgXeq3gmp7cs8tqDuHp3TVNhCbjnux2V\"]},\"openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol\":{\"keccak256\":\"0x4a3a810b7ebe742e897e1fd428b3eeed2196d3acea58eaf9c566ed10d545d2ed\",\"urls\":[\"bzz-raw://28d03f328e19e4099d5013de0649afaeaabac1a614e130767ab1cb4aca9775b6\",\"dweb:/ipfs/Qmb9iW7yNuYehB2NfhRMs9TakqbLVQhBhmGMkaDZ5g1Eb4\"]},\"openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol\":{\"keccak256\":\"0xa2b957cf89692c504962afb7506999155f83385373f808243246cd5879de5940\",\"urls\":[\"bzz-raw://c44ae0ad1bce141c33b962f8b4e9228bdf8df36c8ac363b4f0bf9498b8bfc32a\",\"dweb:/ipfs/QmcSBRdFwVvy2wFZrBwo5cvqNP4UHh9Eyzf8jnxBgnPqfe\"]},\"openzeppelin-solidity/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xe5bb0f57cff3e299f360052ba50f1ea0fff046df2be070b6943e0e3c3fdad8a9\",\"urls\":[\"bzz-raw://59fd025151435da35faa8093a5c7a17de02de9d08ad27275c5cdf05050820d91\",\"dweb:/ipfs/QmQMvwEcPhoRXzbXyrdoeRtvLoifUW9Qh7Luho7bmUPRkc\"]},\"truffle/Assert.sol\":{\"keccak256\":\"0x2014cb3bba06019306699b02c97cb98dac2625bfe408fe25e4e9320fb6743303\",\"urls\":[\"bzz-raw://b11f5867eb881a1b631a4ab392b2cc3398ce0fbeb671d80b8c4c95511123b718\",\"dweb:/ipfs/QmaYYE36iks1zJTFMmLPG9twpbThTSA5iBcfHkkwCjaSEu\"]},\"truffle/AssertAddress.sol\":{\"keccak256\":\"0x807ab53a9b419fbaa63c8731cf0ff7ec8b423c444cdb39c2245d0e7e30a9741f\",\"urls\":[\"bzz-raw://2bd0cf3dc8b88b2f2ec9dbf2a156236fe4e332727eb00f3d372dc13ed3cf9a25\",\"dweb:/ipfs/QmaZzqRZ2kwX3XUTJRvigi8yspSSsqkjb7m96P2miuWCfw\"]},\"truffle/AssertAddressArray.sol\":{\"keccak256\":\"0x6969ad9e61594d128097f6780dfa1bb6f50659c51312a48e5489f485ba906dea\",\"urls\":[\"bzz-raw://27299c2b9e8a1ef5a9b71d293d807d7debbcf720f51a6ec745f4dc9a0becd2c8\",\"dweb:/ipfs/QmZ2ojxXcuhenqzkxtdYzrwDDnHtNfhQhV4bg8mKrRZaFT\"]},\"truffle/AssertBalance.sol\":{\"keccak256\":\"0xf0fd4bff9fc652f51ab18b9a92419d96ba2b4377e091014defea0a8dcc0296f8\",\"urls\":[\"bzz-raw://b16676a3c1399a04d64e93cde06fcacd1f0e97d5d98f969cc545d2c1c0e057cd\",\"dweb:/ipfs/QmeKuaeqdgnvyd7cDvNDzG9CZiUhQGP2VspNp2mmqD5eyA\"]},\"truffle/AssertBool.sol\":{\"keccak256\":\"0xd3382cb9e6bcfa9f6e253057912ea1dd2da75a8c4f8645190b4e6642dfab662d\",\"urls\":[\"bzz-raw://88ffe4e4de6c66e37b31e4d8ce5625d6c13d1ff5bd1f382bcbfcebdb7833d74d\",\"dweb:/ipfs/QmY2Q8RnyUymH4grn96HBbvqzJyEx59uPt6vKbNZqT4dbj\"]},\"truffle/AssertBytes32.sol\":{\"keccak256\":\"0x3c85b1c0f3c8e16e9b1d82d71ca0406ceb9bbd744f967d0f663fb56b3b43e85c\",\"urls\":[\"bzz-raw://7e018151c06207efaa11a6bfa4a2ce3ac60c7ddffb77971f27fcff206799a9bd\",\"dweb:/ipfs/QmekB79Qwwdyatdhf6bvGy8wNLnz9kuv12Jb7FEUP2azio\"]},\"truffle/AssertBytes32Array.sol\":{\"keccak256\":\"0x19d6dd4b4fe79296ed2ac9cdb85941e790e8ba2d70b4a0a380c775cc282bf1e3\",\"urls\":[\"bzz-raw://75fef06f5da438060ea054cb9f884ec3a204f391c113c8ab982661f160d529a2\",\"dweb:/ipfs/QmTmBihptWb2ZERE8LEqLGMFW6GvAvz25hAXCvGNcFFEET\"]},\"truffle/AssertGeneral.sol\":{\"keccak256\":\"0x4a3ba94bc5534461e99a6298f10b20e2205b3f418f38f8f2e9f7d74f6e1e70e0\",\"urls\":[\"bzz-raw://167e421edc2b2b5499998df47714df9fd1f99d44dd9420702e898072439a0a14\",\"dweb:/ipfs/QmPBiYp72TMMd9pjyKrzEabpjmzMZq8KowAyiwLFksbJVD\"]},\"truffle/AssertInt.sol\":{\"keccak256\":\"0x85c547bd23994e4a8845c4d6965e81ed6285157cd62fcc2971b29ff82434d536\",\"urls\":[\"bzz-raw://3ba14c7c145ad2bfb87abfeb4726b564cd32cc2da2b910f051b39ee0bd39bdbf\",\"dweb:/ipfs/QmQ3Re12LSq1BZE51XdPknjLLNGKtaFnkdAVSJVcZfE4rP\"]},\"truffle/AssertIntArray.sol\":{\"keccak256\":\"0x03898302f8f5b2dbede827d01e0d764022bddef6f2bd8f59cc696ffd57a76632\",\"urls\":[\"bzz-raw://45645ede978654074f160f08510a6fcc981d1ce5003cb0e111c7a6ad331bea79\",\"dweb:/ipfs/QmWxfsb5i8gXmPd9PNMtv41z7MNtw4xymKBbnmGwi9Egpd\"]},\"truffle/AssertString.sol\":{\"keccak256\":\"0x3ccb0d5c165b23d8d1d7cc646637dd677c64467066b095004caf8c202e351b40\",\"urls\":[\"bzz-raw://63b7e55f3f65a76c190459fa8fb3f70b1d1509de4bad3be59e90299d548b3e94\",\"dweb:/ipfs/Qmd6mB8FeA9SKWbVVQAEkNqDBQ7nVStLf93PWUaAiSSGhE\"]},\"truffle/AssertUint.sol\":{\"keccak256\":\"0x7944fda8d5f9a702b4fc4b5e692ae6201169153f244f9ec3e889208b459c4b4a\",\"urls\":[\"bzz-raw://6503a57660fae30a1603f16f3f22f6412fa99e1b0b8ec66a952baeab2af1736b\",\"dweb:/ipfs/QmVFLLSSjHK6vXggvLznCokfCdWVKRKNEaKJUm2bL2SZoA\"]},\"truffle/AssertUintArray.sol\":{\"keccak256\":\"0x602db61cafe76ac7d1dd64a0cb2883a2610c7e7becc8a1f4b96520e22c35c3b2\",\"urls\":[\"bzz-raw://83ace08a7b53b7c400255229364354494e2f256779dff7e21e2076ae18366157\",\"dweb:/ipfs/QmPx1upt73AhZGVw3ht7CKFFh5SiGU1R82ijhG5y5gTEU5\"]},\"truffle/DeployedAddresses.sol\":{\"keccak256\":\"0xccf68aad7bdeb1456cf81ce48d01faa3ffb871ad4f7ecf9eb4f01ff6ffded404\",\"urls\":[\"bzz-raw://8d16a252da5067004f1c4624189acbd777269ed771dae74dc7b9c5adb78e23ea\",\"dweb:/ipfs/QmezxvowsMS7rM5xePAQGBhMbPK9RM24jWBHkg3SArJBw2\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158203f784173ff324b0c3f6184f24ed60247daa10bcf7dc640527f26d207e9ddd46a64736f6c634300050c0032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158203f784173ff324b0c3f6184f24ed60247daa10bcf7dc640527f26d207e9ddd46a64736f6c634300050c0032",
+  "sourceMap": "140:540:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;140:540:4;;;;;;;",
+  "deployedSourceMap": "140:540:4:-;;;;;",
+  "source": "pragma solidity >=0.4.25 <0.6.0;\n\nimport \"truffle/Assert.sol\";\nimport \"truffle/DeployedAddresses.sol\";\nimport \"../contracts/SOVToken.sol\";\n\ncontract TestSOVToken {\n\n  // function testInitialBalanceUsingDeployedContract() public {\n  //   SOVToken meta = SOVToken(DeployedAddresses.SOVToken());\n\n  //   uint expected = 10000;\n\n  //   Assert.equal(meta.balanceOf(tx.origin), expected, \"Owner should have 10000 SOVToken initially\");\n  // }\n\n  // function testInitialBalanceWithNewSOVToken() public {\n  //   SOVToken meta = new SOVToken();\n\n  //   uint expected = 10000;\n\n  //   Assert.equal(meta.balanceOf(tx.origin), expected, \"Owner should have 10000 SOVToken initially\");\n  // }\n\n}\n",
+  "sourcePath": "/Users/gilad/Documents/Code/metacoinv2/test/TestSOVToken.sol",
+  "ast": {
+    "absolutePath": "/Users/gilad/Documents/Code/metacoinv2/test/TestSOVToken.sol",
+    "exportedSymbols": {
+      "TestSOVToken": [
+        305
+      ]
+    },
+    "id": 306,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 301,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".25",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:4"
+      },
+      {
+        "absolutePath": "truffle/Assert.sol",
+        "file": "truffle/Assert.sol",
+        "id": 302,
+        "nodeType": "ImportDirective",
+        "scope": 306,
+        "sourceUnit": 2414,
+        "src": "34:28:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "truffle/DeployedAddresses.sol",
+        "file": "truffle/DeployedAddresses.sol",
+        "id": 303,
+        "nodeType": "ImportDirective",
+        "scope": 306,
+        "sourceUnit": 8869,
+        "src": "63:39:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/gilad/Documents/Code/metacoinv2/contracts/SOVToken.sol",
+        "file": "../contracts/SOVToken.sol",
+        "id": 304,
+        "nodeType": "ImportDirective",
+        "scope": 306,
+        "sourceUnit": 300,
+        "src": "103:35:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 305,
+        "linearizedBaseContracts": [
+          305
+        ],
+        "name": "TestSOVToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 306,
+        "src": "140:540:4"
+      }
+    ],
+    "src": "0:681:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/gilad/Documents/Code/metacoinv2/test/TestSOVToken.sol",
+    "exportedSymbols": {
+      "TestSOVToken": [
+        305
+      ]
+    },
+    "id": 306,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 301,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".25",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:4"
+      },
+      {
+        "absolutePath": "truffle/Assert.sol",
+        "file": "truffle/Assert.sol",
+        "id": 302,
+        "nodeType": "ImportDirective",
+        "scope": 306,
+        "sourceUnit": 2414,
+        "src": "34:28:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "truffle/DeployedAddresses.sol",
+        "file": "truffle/DeployedAddresses.sol",
+        "id": 303,
+        "nodeType": "ImportDirective",
+        "scope": 306,
+        "sourceUnit": 8869,
+        "src": "63:39:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/gilad/Documents/Code/metacoinv2/contracts/SOVToken.sol",
+        "file": "../contracts/SOVToken.sol",
+        "id": 304,
+        "nodeType": "ImportDirective",
+        "scope": 306,
+        "sourceUnit": 300,
+        "src": "103:35:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 305,
+        "linearizedBaseContracts": [
+          305
+        ],
+        "name": "TestSOVToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 306,
+        "src": "140:540:4"
+      }
+    ],
+    "src": "0:681:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.19",
+  "updatedAt": "2019-11-15T01:45:34.249Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
